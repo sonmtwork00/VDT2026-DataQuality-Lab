@@ -1,7 +1,7 @@
 Markdown
 # Bài Thực Hành Kiểm Định Chất Lượng Dữ Liệu Với Great Expectations (GX)
 
-Tài liệu này hướng dẫn các bước thiết lập môi trường và thực thi kiểm định chất lượng dữ liệu trên tệp dữ liệu giao dịch bẩn (`dirty_transactions.csv`) bằng thư viện **Great Expectations (GX)** chạy ở chế độ độc lập (Local Standalone).
+Tài liệu này hướng dẫn các bước thiết lập môi trường và thực thi kiểm định chất lượng dữ liệu trên tệp dữ liệu giao dịch bẩn (`dirty_transactions.csv`) bằng thư viện **Great Expectations (GX)**.
 
 ---
 
@@ -51,8 +51,9 @@ pip install great_expectations pandas
 ```
 
 ## Bước 4: Khởi Tạo GX Project
-Sinh viên tiến hành khởi tạo kiến trúc quản lý cấu hình của GX bằng lệnh sau:
-
+Tạo file Python script, sử dụng package great_expectations
 ```bash
-great_expectations init
+import great_expectations as gx
+import os
+...
 ```
