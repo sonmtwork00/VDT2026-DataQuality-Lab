@@ -19,8 +19,8 @@ Tài liệu này hướng dẫn các bước thiết lập môi trường và th
 Tạo thư mục dự án
 Mở Terminal (hoặc CMD/PowerShell) và chạy cú pháp:
 ```bash
-mkdir datahub-gx-lab
-cd datahub-gx-lab
+mkdir gx-lab
+cd gx-lab
 ```
 
 ## Bước 2: Khởi tạo môi trường ảo Python
