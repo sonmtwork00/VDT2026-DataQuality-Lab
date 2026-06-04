@@ -25,7 +25,6 @@ cd datahub-gx-lab
 
 ## Bước 2: Khởi tạo môi trường ảo Python
 Khuyến nghị: Sử dụng phiên bản Python từ 3.8 đến 3.10.
-```
 
 Trên macOS / Linux:
 ```bash
